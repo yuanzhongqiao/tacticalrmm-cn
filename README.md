@@ -4,40 +4,42 @@
 [![codecov](https://codecov.io/gh/amidaware/tacticalrmm/branch/develop/graph/badge.svg?token=8ACUPVPTH6)](https://codecov.io/gh/amidaware/tacticalrmm)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
 
-Tactical RMM is a remote monitoring & management tool, built with Django and Vue.\
-It uses an [agent](https://github.com/amidaware/rmmagent) written in golang and integrates with [MeshCentral](https://github.com/Ylianst/MeshCentral)
-
-# [LIVE DEMO](https://demo.tacticalrmm.com/)
-Demo database resets every hour. A lot of features are disabled for obvious reasons due to the nature of this app.
-
-### [Discord Chat](https://discord.gg/upGTkWp)
-
-### [Documentation](https://docs.tacticalrmm.com)
-
-## Features
-
-- Teamviewer-like remote desktop control
-- Real-time remote shell
-- Remote file browser (download and upload files)
-- Remote command and script execution (batch, powershell and python scripts)
-- Event log viewer
-- Services management
-- Windows patch management
-- Automated checks with email/SMS alerting (cpu, disk, memory, services, scripts, event logs)
-- Automated task runner (run scripts on a schedule)
-- Remote software installation via chocolatey
-- Software and hardware inventory
-
-## Windows agent versions supported
-
-- Windows 7, 8.1, 10, 11, Server 2008R2, 2012R2, 2016, 2019, 2022
-
-## Linux agent versions supported
-- Any distro with systemd which includes but is not limited to: Debian (10, 11), Ubuntu x86_64 (18.04, 20.04, 22.04), Synology 7, centos, freepbx and more!
-
-## Mac agent versions supported
-- 64 bit Intel and Apple Silicon (M1, M2)
-
-## Installation / Backup / Restore / Usage
-
-### Refer to the [documentation](https://docs.tacticalrmm.com)
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto"><a id="user-content-tactical-rmm" class="anchor" aria-hidden="true" tabindex="-1" href="#tactical-rmm"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">战术RMM</font></font></h1>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/amidaware/tacticalrmm/actions/workflows/ci-tests.yml/badge.svg?branch=develop"><img src="https://github.com/amidaware/tacticalrmm/actions/workflows/ci-tests.yml/badge.svg?branch=develop" alt="持续集成测试" style="max-width: 100%;"></a>
+<a href="https://codecov.io/gh/amidaware/tacticalrmm" rel="nofollow"><img src="https://camo.githubusercontent.com/d0e8da5c400a442d915920306f0b21bf9e9dfccacf829b868d454eeaaa019a59/68747470733a2f2f636f6465636f762e696f2f67682f616d696461776172652f746163746963616c726d6d2f6272616e63682f646576656c6f702f67726170682f62616467652e7376673f746f6b656e3d38414355505650544836" alt="代码科夫" data-canonical-src="https://codecov.io/gh/amidaware/tacticalrmm/branch/develop/graph/badge.svg?token=8ACUPVPTH6" style="max-width: 100%;"></a>
+<a href="https://github.com/python/black"><img src="https://camo.githubusercontent.com/7d770c433d6198d89f8c1e2f187b904a9721d176259d0e97157337741cc8e837/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f64652532307374796c652d626c61636b2d3030303030302e737667" alt="代码风格：黑色" data-canonical-src="https://img.shields.io/badge/code%20style-black-000000.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tactical RMM 是一个远程监控和管理工具，使用 Django 和 Vue 构建。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+它使用用</font><font style="vertical-align: inherit;">golang 编写的</font></font><a href="https://github.com/amidaware/rmmagent"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代理并与</font></font></a><font style="vertical-align: inherit;"></font><a href="https://github.com/Ylianst/MeshCentral"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MeshCentral集成</font></font></a></p>
+<h1 tabindex="-1" dir="auto"><a id="user-content-live-demo" class="anchor" aria-hidden="true" tabindex="-1" href="#live-demo"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><a href="https://demo.tacticalrmm.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现场演示</font></font></a></h1>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示数据库每小时重置一次。</font><font style="vertical-align: inherit;">由于此应用程序的性质，许多功能因显而易见的原因而被禁用。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-discord-chat" class="anchor" aria-hidden="true" tabindex="-1" href="#discord-chat"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><a href="https://discord.gg/upGTkWp" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不和谐聊天</font></font></a></h3>
+<h3 tabindex="-1" dir="auto"><a id="user-content-documentation" class="anchor" aria-hidden="true" tabindex="-1" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><a href="https://docs.tacticalrmm.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></h3>
+<h2 tabindex="-1" dir="auto"><a id="user-content-features" class="anchor" aria-hidden="true" tabindex="-1" href="#features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特征</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类似Teamviewer的远程桌面控制</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实时远程shell</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">远程文件浏览器（下载和上传文件）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">远程命令和脚本执行（批处理、powershell 和 python 脚本）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事件日志查看器</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">服务管理</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Windows补丁管理</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过电子邮件/短信警报自动检查（CPU、磁盘、内存、服务、脚本、事件日志）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自动任务运行程序（按计划运行脚本）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过chocolatey远程安装软件</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件和硬件库存</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-windows-agent-versions-supported" class="anchor" aria-hidden="true" tabindex="-1" href="#windows-agent-versions-supported"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持的 Windows 代理版本</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Windows 7、8.1、10、11、服务器 2008R2、2012R2、2016、2019、2022</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-linux-agent-versions-supported" class="anchor" aria-hidden="true" tabindex="-1" href="#linux-agent-versions-supported"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持的 Linux 代理版本</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何带有 systemd 的发行版，包括但不限于：Debian (10、11)、Ubuntu x86_64 (18.04、20.04、22.04)、Synology 7、centos、freepbx 等等！</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-mac-agent-versions-supported" class="anchor" aria-hidden="true" tabindex="-1" href="#mac-agent-versions-supported"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持的 Mac 代理版本</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">64 位 Intel 和 Apple Silicon（M1、M2）</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-installation--backup--restore--usage" class="anchor" aria-hidden="true" tabindex="-1" href="#installation--backup--restore--usage"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装/备份/恢复/使用</font></font></h2>
+<h3 tabindex="-1" dir="auto"><a id="user-content-refer-to-the-documentation" class="anchor" aria-hidden="true" tabindex="-1" href="#refer-to-the-documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考</font></font><a href="https://docs.tacticalrmm.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></h3>
+</article></div>
